@@ -107,7 +107,7 @@ const pokemonController = {
     }
 
     const filename = req.file.filename;
-    const imageUrl = `${process.env.API_URL || "http://localhost:3000"}/assets/pokemons/${filename}`;
+    const imageUrl = `${process.env.API_URL || "http://localhost:3030"}/assets/pokemons/${filename}`;
 
     return res.status(200).json({
       status: 200,
