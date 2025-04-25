@@ -19,7 +19,9 @@
       "Sp. Defense": 65,
       "Speed": 45
     },
-    "image": "http://localhost:3030/assets/pokemons/1.png"
+    "image": "http://localhost:3030/assets/pokemons/1.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/1.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 2,
@@ -41,7 +43,9 @@
       "Sp. Defense": 80,
       "Speed": 60
     },
-    "image": "http://localhost:3030/assets/pokemons/2.png"
+    "image": "http://localhost:3030/assets/pokemons/2.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/2.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 3,
@@ -63,7 +67,9 @@
       "Sp. Defense": 100,
       "Speed": 80
     },
-    "image": "http://localhost:3030/assets/pokemons/3.png"
+    "image": "http://localhost:3030/assets/pokemons/3.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/3.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 4,
@@ -84,7 +90,9 @@
       "Sp. Defense": 50,
       "Speed": 65
     },
-    "image": "http://localhost:3030/assets/pokemons/4.png"
+    "image": "http://localhost:3030/assets/pokemons/4.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/4.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 5,
@@ -105,7 +113,9 @@
       "Sp. Defense": 65,
       "Speed": 80
     },
-    "image": "http://localhost:3030/assets/pokemons/5.png"
+    "image": "http://localhost:3030/assets/pokemons/5.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/5.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 6,
@@ -127,7 +137,9 @@
       "Sp. Defense": 85,
       "Speed": 100
     },
-    "image": "http://localhost:3030/assets/pokemons/6.png"
+    "image": "http://localhost:3030/assets/pokemons/6.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/6.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 7,
@@ -148,7 +160,9 @@
       "Sp. Defense": 64,
       "Speed": 43
     },
-    "image": "http://localhost:3030/assets/pokemons/7.png"
+    "image": "http://localhost:3030/assets/pokemons/7.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/7.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 8,
@@ -169,7 +183,9 @@
       "Sp. Defense": 80,
       "Speed": 58
     },
-    "image": "http://localhost:3030/assets/pokemons/8.png"
+    "image": "http://localhost:3030/assets/pokemons/8.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/8.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 9,
@@ -190,7 +206,9 @@
       "Sp. Defense": 105,
       "Speed": 78
     },
-    "image": "http://localhost:3030/assets/pokemons/9.png"
+    "image": "http://localhost:3030/assets/pokemons/9.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/9.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 10,
@@ -211,7 +229,9 @@
       "Sp. Defense": 20,
       "Speed": 45
     },
-    "image": "http://localhost:3030/assets/pokemons/10.png"
+    "image": "http://localhost:3030/assets/pokemons/10.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/10.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 11,
@@ -232,7 +252,9 @@
       "Sp. Defense": 25,
       "Speed": 30
     },
-    "image": "http://localhost:3030/assets/pokemons/11.png"
+    "image": "http://localhost:3030/assets/pokemons/11.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/11.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 12,
@@ -254,7 +276,9 @@
       "Sp. Defense": 80,
       "Speed": 70
     },
-    "image": "http://localhost:3030/assets/pokemons/12.png"
+    "image": "http://localhost:3030/assets/pokemons/12.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/12.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 13,
@@ -276,7 +300,9 @@
       "Sp. Defense": 20,
       "Speed": 50
     },
-    "image": "http://localhost:3030/assets/pokemons/13.png"
+    "image": "http://localhost:3030/assets/pokemons/13.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/13.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 14,
@@ -298,7 +324,9 @@
       "Sp. Defense": 25,
       "Speed": 35
     },
-    "image": "http://localhost:3030/assets/pokemons/14.png"
+    "image": "http://localhost:3030/assets/pokemons/14.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/14.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 15,
@@ -320,7 +348,9 @@
       "Sp. Defense": 80,
       "Speed": 75
     },
-    "image": "http://localhost:3030/assets/pokemons/15.png"
+    "image": "http://localhost:3030/assets/pokemons/15.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/15.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 16,
@@ -342,7 +372,9 @@
       "Sp. Defense": 35,
       "Speed": 56
     },
-    "image": "http://localhost:3030/assets/pokemons/16.png"
+    "image": "http://localhost:3030/assets/pokemons/16.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/16.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 17,
@@ -364,7 +396,9 @@
       "Sp. Defense": 50,
       "Speed": 71
     },
-    "image": "http://localhost:3030/assets/pokemons/17.png"
+    "image": "http://localhost:3030/assets/pokemons/17.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/17.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 18,
@@ -386,7 +420,9 @@
       "Sp. Defense": 70,
       "Speed": 101
     },
-    "image": "http://localhost:3030/assets/pokemons/18.png"
+    "image": "http://localhost:3030/assets/pokemons/18.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/18.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 19,
@@ -407,7 +443,9 @@
       "Sp. Defense": 35,
       "Speed": 72
     },
-    "image": "http://localhost:3030/assets/pokemons/19.png"
+    "image": "http://localhost:3030/assets/pokemons/19.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/19.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 20,
@@ -428,7 +466,9 @@
       "Sp. Defense": 70,
       "Speed": 97
     },
-    "image": "http://localhost:3030/assets/pokemons/20.png"
+    "image": "http://localhost:3030/assets/pokemons/20.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/20.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 21,
@@ -450,7 +490,9 @@
       "Sp. Defense": 31,
       "Speed": 70
     },
-    "image": "http://localhost:3030/assets/pokemons/21.png"
+    "image": "http://localhost:3030/assets/pokemons/21.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/21.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 22,
@@ -472,7 +514,9 @@
       "Sp. Defense": 61,
       "Speed": 100
     },
-    "image": "http://localhost:3030/assets/pokemons/22.png"
+    "image": "http://localhost:3030/assets/pokemons/22.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/22.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 23,
@@ -493,7 +537,9 @@
       "Sp. Defense": 54,
       "Speed": 55
     },
-    "image": "http://localhost:3030/assets/pokemons/23.png"
+    "image": "http://localhost:3030/assets/pokemons/23.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/23.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 24,
@@ -514,7 +560,9 @@
       "Sp. Defense": 79,
       "Speed": 80
     },
-    "image": "http://localhost:3030/assets/pokemons/24.png"
+    "image": "http://localhost:3030/assets/pokemons/24.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/24.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 25,
@@ -535,7 +583,9 @@
       "Sp. Defense": 50,
       "Speed": 90
     },
-    "image": "http://localhost:3030/assets/pokemons/25.png"
+    "image": "http://localhost:3030/assets/pokemons/25.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/25.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 26,
@@ -556,7 +606,9 @@
       "Sp. Defense": 80,
       "Speed": 110
     },
-    "image": "http://localhost:3030/assets/pokemons/26.png"
+    "image": "http://localhost:3030/assets/pokemons/26.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/26.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 27,
@@ -577,7 +629,9 @@
       "Sp. Defense": 30,
       "Speed": 40
     },
-    "image": "http://localhost:3030/assets/pokemons/27.png"
+    "image": "http://localhost:3030/assets/pokemons/27.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/27.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 28,
@@ -598,7 +652,9 @@
       "Sp. Defense": 55,
       "Speed": 65
     },
-    "image": "http://localhost:3030/assets/pokemons/28.png"
+    "image": "http://localhost:3030/assets/pokemons/28.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/28.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 29,
@@ -619,7 +675,9 @@
       "Sp. Defense": 40,
       "Speed": 41
     },
-    "image": "http://localhost:3030/assets/pokemons/29.png"
+    "image": "http://localhost:3030/assets/pokemons/29.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/29.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 30,
@@ -640,7 +698,9 @@
       "Sp. Defense": 55,
       "Speed": 56
     },
-    "image": "http://localhost:3030/assets/pokemons/30.png"
+    "image": "http://localhost:3030/assets/pokemons/30.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/30.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 31,
@@ -662,7 +722,9 @@
       "Sp. Defense": 85,
       "Speed": 76
     },
-    "image": "http://localhost:3030/assets/pokemons/31.png"
+    "image": "http://localhost:3030/assets/pokemons/31.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/31.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 32,
@@ -683,7 +745,9 @@
       "Sp. Defense": 40,
       "Speed": 50
     },
-    "image": "http://localhost:3030/assets/pokemons/32.png"
+    "image": "http://localhost:3030/assets/pokemons/32.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/32.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 33,
@@ -704,7 +768,9 @@
       "Sp. Defense": 55,
       "Speed": 65
     },
-    "image": "http://localhost:3030/assets/pokemons/33.png"
+    "image": "http://localhost:3030/assets/pokemons/33.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/33.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 34,
@@ -726,7 +792,9 @@
       "Sp. Defense": 75,
       "Speed": 85
     },
-    "image": "http://localhost:3030/assets/pokemons/34.png"
+    "image": "http://localhost:3030/assets/pokemons/34.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/34.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 35,
@@ -747,7 +815,9 @@
       "Sp. Defense": 65,
       "Speed": 35
     },
-    "image": "http://localhost:3030/assets/pokemons/35.png"
+    "image": "http://localhost:3030/assets/pokemons/35.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/35.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 36,
@@ -768,7 +838,9 @@
       "Sp. Defense": 90,
       "Speed": 60
     },
-    "image": "http://localhost:3030/assets/pokemons/36.png"
+    "image": "http://localhost:3030/assets/pokemons/36.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/36.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 37,
@@ -789,7 +861,9 @@
       "Sp. Defense": 65,
       "Speed": 65
     },
-    "image": "http://localhost:3030/assets/pokemons/37.png"
+    "image": "http://localhost:3030/assets/pokemons/37.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/37.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 38,
@@ -810,7 +884,9 @@
       "Sp. Defense": 100,
       "Speed": 100
     },
-    "image": "http://localhost:3030/assets/pokemons/38.png"
+    "image": "http://localhost:3030/assets/pokemons/38.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/38.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 39,
@@ -832,7 +908,9 @@
       "Sp. Defense": 25,
       "Speed": 20
     },
-    "image": "http://localhost:3030/assets/pokemons/39.png"
+    "image": "http://localhost:3030/assets/pokemons/39.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/39.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 40,
@@ -854,7 +932,9 @@
       "Sp. Defense": 50,
       "Speed": 45
     },
-    "image": "http://localhost:3030/assets/pokemons/40.png"
+    "image": "http://localhost:3030/assets/pokemons/40.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/40.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 41,
@@ -876,7 +956,9 @@
       "Sp. Defense": 40,
       "Speed": 55
     },
-    "image": "http://localhost:3030/assets/pokemons/41.png"
+    "image": "http://localhost:3030/assets/pokemons/41.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/41.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 42,
@@ -898,7 +980,9 @@
       "Sp. Defense": 75,
       "Speed": 90
     },
-    "image": "http://localhost:3030/assets/pokemons/42.png"
+    "image": "http://localhost:3030/assets/pokemons/42.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/42.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 43,
@@ -920,7 +1004,9 @@
       "Sp. Defense": 65,
       "Speed": 30
     },
-    "image": "http://localhost:3030/assets/pokemons/43.png"
+    "image": "http://localhost:3030/assets/pokemons/43.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/43.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 44,
@@ -942,7 +1028,9 @@
       "Sp. Defense": 75,
       "Speed": 40
     },
-    "image": "http://localhost:3030/assets/pokemons/44.png"
+    "image": "http://localhost:3030/assets/pokemons/44.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/44.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 45,
@@ -964,7 +1052,9 @@
       "Sp. Defense": 90,
       "Speed": 50
     },
-    "image": "http://localhost:3030/assets/pokemons/45.png"
+    "image": "http://localhost:3030/assets/pokemons/45.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/45.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 46,
@@ -986,7 +1076,9 @@
       "Sp. Defense": 55,
       "Speed": 25
     },
-    "image": "http://localhost:3030/assets/pokemons/46.png"
+    "image": "http://localhost:3030/assets/pokemons/46.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/46.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 47,
@@ -1008,7 +1100,9 @@
       "Sp. Defense": 80,
       "Speed": 30
     },
-    "image": "http://localhost:3030/assets/pokemons/47.png"
+    "image": "http://localhost:3030/assets/pokemons/47.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/47.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 48,
@@ -1030,7 +1124,9 @@
       "Sp. Defense": 55,
       "Speed": 45
     },
-    "image": "http://localhost:3030/assets/pokemons/48.png"
+    "image": "http://localhost:3030/assets/pokemons/48.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/48.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 49,
@@ -1052,7 +1148,9 @@
       "Sp. Defense": 75,
       "Speed": 90
     },
-    "image": "http://localhost:3030/assets/pokemons/49.png"
+    "image": "http://localhost:3030/assets/pokemons/49.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/49.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 50,
@@ -1073,7 +1171,9 @@
       "Sp. Defense": 45,
       "Speed": 95
     },
-    "image": "http://localhost:3030/assets/pokemons/50.png"
+    "image": "http://localhost:3030/assets/pokemons/50.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/50.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 51,
@@ -1094,7 +1194,9 @@
       "Sp. Defense": 70,
       "Speed": 120
     },
-    "image": "http://localhost:3030/assets/pokemons/51.png"
+    "image": "http://localhost:3030/assets/pokemons/51.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/51.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 52,
@@ -1115,7 +1217,9 @@
       "Sp. Defense": 40,
       "Speed": 90
     },
-    "image": "http://localhost:3030/assets/pokemons/52.png"
+    "image": "http://localhost:3030/assets/pokemons/52.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/52.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 53,
@@ -1136,7 +1240,9 @@
       "Sp. Defense": 65,
       "Speed": 115
     },
-    "image": "http://localhost:3030/assets/pokemons/53.png"
+    "image": "http://localhost:3030/assets/pokemons/53.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/53.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 54,
@@ -1157,7 +1263,9 @@
       "Sp. Defense": 50,
       "Speed": 55
     },
-    "image": "http://localhost:3030/assets/pokemons/54.png"
+    "image": "http://localhost:3030/assets/pokemons/54.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/54.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 55,
@@ -1178,7 +1286,9 @@
       "Sp. Defense": 80,
       "Speed": 85
     },
-    "image": "http://localhost:3030/assets/pokemons/55.png"
+    "image": "http://localhost:3030/assets/pokemons/55.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/55.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 56,
@@ -1199,7 +1309,9 @@
       "Sp. Defense": 45,
       "Speed": 70
     },
-    "image": "http://localhost:3030/assets/pokemons/56.png"
+    "image": "http://localhost:3030/assets/pokemons/56.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/56.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 57,
@@ -1220,7 +1332,9 @@
       "Sp. Defense": 70,
       "Speed": 95
     },
-    "image": "http://localhost:3030/assets/pokemons/57.png"
+    "image": "http://localhost:3030/assets/pokemons/57.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/57.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 58,
@@ -1241,7 +1355,9 @@
       "Sp. Defense": 50,
       "Speed": 60
     },
-    "image": "http://localhost:3030/assets/pokemons/58.png"
+    "image": "http://localhost:3030/assets/pokemons/58.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/58.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 59,
@@ -1262,7 +1378,9 @@
       "Sp. Defense": 80,
       "Speed": 95
     },
-    "image": "http://localhost:3030/assets/pokemons/59.png"
+    "image": "http://localhost:3030/assets/pokemons/59.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/59.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 60,
@@ -1283,7 +1401,9 @@
       "Sp. Defense": 40,
       "Speed": 90
     },
-    "image": "http://localhost:3030/assets/pokemons/60.png"
+    "image": "http://localhost:3030/assets/pokemons/60.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/60.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 61,
@@ -1304,7 +1424,9 @@
       "Sp. Defense": 50,
       "Speed": 90
     },
-    "image": "http://localhost:3030/assets/pokemons/61.png"
+    "image": "http://localhost:3030/assets/pokemons/61.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/61.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 62,
@@ -1326,7 +1448,9 @@
       "Sp. Defense": 90,
       "Speed": 70
     },
-    "image": "http://localhost:3030/assets/pokemons/62.png"
+    "image": "http://localhost:3030/assets/pokemons/62.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/62.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 63,
@@ -1347,7 +1471,9 @@
       "Sp. Defense": 55,
       "Speed": 90
     },
-    "image": "http://localhost:3030/assets/pokemons/63.png"
+    "image": "http://localhost:3030/assets/pokemons/63.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/63.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 64,
@@ -1368,7 +1494,9 @@
       "Sp. Defense": 70,
       "Speed": 105
     },
-    "image": "http://localhost:3030/assets/pokemons/64.png"
+    "image": "http://localhost:3030/assets/pokemons/64.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/64.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 65,
@@ -1389,7 +1517,9 @@
       "Sp. Defense": 95,
       "Speed": 120
     },
-    "image": "http://localhost:3030/assets/pokemons/65.png"
+    "image": "http://localhost:3030/assets/pokemons/65.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/65.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 66,
@@ -1410,7 +1540,9 @@
       "Sp. Defense": 35,
       "Speed": 35
     },
-    "image": "http://localhost:3030/assets/pokemons/66.png"
+    "image": "http://localhost:3030/assets/pokemons/66.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/66.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 67,
@@ -1431,7 +1563,9 @@
       "Sp. Defense": 60,
       "Speed": 45
     },
-    "image": "http://localhost:3030/assets/pokemons/67.png"
+    "image": "http://localhost:3030/assets/pokemons/67.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/67.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 68,
@@ -1452,7 +1586,9 @@
       "Sp. Defense": 85,
       "Speed": 55
     },
-    "image": "http://localhost:3030/assets/pokemons/68.png"
+    "image": "http://localhost:3030/assets/pokemons/68.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/68.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 69,
@@ -1474,7 +1610,9 @@
       "Sp. Defense": 30,
       "Speed": 40
     },
-    "image": "http://localhost:3030/assets/pokemons/69.png"
+    "image": "http://localhost:3030/assets/pokemons/69.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/69.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 70,
@@ -1496,7 +1634,9 @@
       "Sp. Defense": 45,
       "Speed": 55
     },
-    "image": "http://localhost:3030/assets/pokemons/70.png"
+    "image": "http://localhost:3030/assets/pokemons/70.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/70.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 71,
@@ -1518,7 +1658,9 @@
       "Sp. Defense": 70,
       "Speed": 70
     },
-    "image": "http://localhost:3030/assets/pokemons/71.png"
+    "image": "http://localhost:3030/assets/pokemons/71.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/71.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 72,
@@ -1540,7 +1682,9 @@
       "Sp. Defense": 100,
       "Speed": 70
     },
-    "image": "http://localhost:3030/assets/pokemons/72.png"
+    "image": "http://localhost:3030/assets/pokemons/72.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/72.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 73,
@@ -1562,7 +1706,9 @@
       "Sp. Defense": 120,
       "Speed": 100
     },
-    "image": "http://localhost:3030/assets/pokemons/73.png"
+    "image": "http://localhost:3030/assets/pokemons/73.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/73.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 74,
@@ -1584,7 +1730,9 @@
       "Sp. Defense": 30,
       "Speed": 20
     },
-    "image": "http://localhost:3030/assets/pokemons/74.png"
+    "image": "http://localhost:3030/assets/pokemons/74.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/74.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 75,
@@ -1606,7 +1754,9 @@
       "Sp. Defense": 45,
       "Speed": 35
     },
-    "image": "http://localhost:3030/assets/pokemons/75.png"
+    "image": "http://localhost:3030/assets/pokemons/75.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/75.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 76,
@@ -1628,7 +1778,9 @@
       "Sp. Defense": 65,
       "Speed": 45
     },
-    "image": "http://localhost:3030/assets/pokemons/76.png"
+    "image": "http://localhost:3030/assets/pokemons/76.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/76.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 77,
@@ -1649,7 +1801,9 @@
       "Sp. Defense": 65,
       "Speed": 90
     },
-    "image": "http://localhost:3030/assets/pokemons/77.png"
+    "image": "http://localhost:3030/assets/pokemons/77.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/77.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 78,
@@ -1670,7 +1824,9 @@
       "Sp. Defense": 80,
       "Speed": 105
     },
-    "image": "http://localhost:3030/assets/pokemons/78.png"
+    "image": "http://localhost:3030/assets/pokemons/78.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/78.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 79,
@@ -1692,7 +1848,9 @@
       "Sp. Defense": 40,
       "Speed": 15
     },
-    "image": "http://localhost:3030/assets/pokemons/79.png"
+    "image": "http://localhost:3030/assets/pokemons/79.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/79.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 80,
@@ -1714,7 +1872,9 @@
       "Sp. Defense": 80,
       "Speed": 30
     },
-    "image": "http://localhost:3030/assets/pokemons/80.png"
+    "image": "http://localhost:3030/assets/pokemons/80.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/80.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 81,
@@ -1736,7 +1896,9 @@
       "Sp. Defense": 55,
       "Speed": 45
     },
-    "image": "http://localhost:3030/assets/pokemons/81.png"
+    "image": "http://localhost:3030/assets/pokemons/81.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/81.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 82,
@@ -1758,7 +1920,9 @@
       "Sp. Defense": 70,
       "Speed": 70
     },
-    "image": "http://localhost:3030/assets/pokemons/82.png"
+    "image": "http://localhost:3030/assets/pokemons/82.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/82.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 83,
@@ -1780,7 +1944,9 @@
       "Sp. Defense": 62,
       "Speed": 60
     },
-    "image": "http://localhost:3030/assets/pokemons/83.png"
+    "image": "http://localhost:3030/assets/pokemons/83.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/83.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 84,
@@ -1802,7 +1968,9 @@
       "Sp. Defense": 35,
       "Speed": 75
     },
-    "image": "http://localhost:3030/assets/pokemons/84.png"
+    "image": "http://localhost:3030/assets/pokemons/84.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/84.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 85,
@@ -1824,7 +1992,9 @@
       "Sp. Defense": 60,
       "Speed": 110
     },
-    "image": "http://localhost:3030/assets/pokemons/85.png"
+    "image": "http://localhost:3030/assets/pokemons/85.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/85.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 86,
@@ -1845,7 +2015,9 @@
       "Sp. Defense": 70,
       "Speed": 45
     },
-    "image": "http://localhost:3030/assets/pokemons/86.png"
+    "image": "http://localhost:3030/assets/pokemons/86.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/86.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 87,
@@ -1867,7 +2039,9 @@
       "Sp. Defense": 95,
       "Speed": 70
     },
-    "image": "http://localhost:3030/assets/pokemons/87.png"
+    "image": "http://localhost:3030/assets/pokemons/87.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/87.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 88,
@@ -1888,7 +2062,9 @@
       "Sp. Defense": 50,
       "Speed": 25
     },
-    "image": "http://localhost:3030/assets/pokemons/88.png"
+    "image": "http://localhost:3030/assets/pokemons/88.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/88.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 89,
@@ -1909,7 +2085,9 @@
       "Sp. Defense": 100,
       "Speed": 50
     },
-    "image": "http://localhost:3030/assets/pokemons/89.png"
+    "image": "http://localhost:3030/assets/pokemons/89.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/89.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 90,
@@ -1930,7 +2108,9 @@
       "Sp. Defense": 25,
       "Speed": 40
     },
-    "image": "http://localhost:3030/assets/pokemons/90.png"
+    "image": "http://localhost:3030/assets/pokemons/90.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/90.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 91,
@@ -1952,7 +2132,9 @@
       "Sp. Defense": 45,
       "Speed": 70
     },
-    "image": "http://localhost:3030/assets/pokemons/91.png"
+    "image": "http://localhost:3030/assets/pokemons/91.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/91.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 92,
@@ -1974,7 +2156,9 @@
       "Sp. Defense": 35,
       "Speed": 80
     },
-    "image": "http://localhost:3030/assets/pokemons/92.png"
+    "image": "http://localhost:3030/assets/pokemons/92.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/92.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 93,
@@ -1996,7 +2180,9 @@
       "Sp. Defense": 55,
       "Speed": 95
     },
-    "image": "http://localhost:3030/assets/pokemons/93.png"
+    "image": "http://localhost:3030/assets/pokemons/93.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/93.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 94,
@@ -2018,7 +2204,9 @@
       "Sp. Defense": 75,
       "Speed": 110
     },
-    "image": "http://localhost:3030/assets/pokemons/94.png"
+    "image": "http://localhost:3030/assets/pokemons/94.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/94.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 95,
@@ -2040,7 +2228,9 @@
       "Sp. Defense": 45,
       "Speed": 70
     },
-    "image": "http://localhost:3030/assets/pokemons/95.png"
+    "image": "http://localhost:3030/assets/pokemons/95.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/95.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 96,
@@ -2061,7 +2251,9 @@
       "Sp. Defense": 90,
       "Speed": 42
     },
-    "image": "http://localhost:3030/assets/pokemons/96.png"
+    "image": "http://localhost:3030/assets/pokemons/96.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/96.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 97,
@@ -2082,7 +2274,9 @@
       "Sp. Defense": 115,
       "Speed": 67
     },
-    "image": "http://localhost:3030/assets/pokemons/97.png"
+    "image": "http://localhost:3030/assets/pokemons/97.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/97.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 98,
@@ -2103,7 +2297,9 @@
       "Sp. Defense": 25,
       "Speed": 50
     },
-    "image": "http://localhost:3030/assets/pokemons/98.png"
+    "image": "http://localhost:3030/assets/pokemons/98.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/98.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 99,
@@ -2124,7 +2320,9 @@
       "Sp. Defense": 50,
       "Speed": 75
     },
-    "image": "http://localhost:3030/assets/pokemons/99.png"
+    "image": "http://localhost:3030/assets/pokemons/99.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/99.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 100,
@@ -2145,7 +2343,9 @@
       "Sp. Defense": 55,
       "Speed": 100
     },
-    "image": "http://localhost:3030/assets/pokemons/100.png"
+    "image": "http://localhost:3030/assets/pokemons/100.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/100.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 101,
@@ -2166,7 +2366,9 @@
       "Sp. Defense": 80,
       "Speed": 150
     },
-    "image": "http://localhost:3030/assets/pokemons/101.png"
+    "image": "http://localhost:3030/assets/pokemons/101.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/101.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 102,
@@ -2188,7 +2390,9 @@
       "Sp. Defense": 45,
       "Speed": 40
     },
-    "image": "http://localhost:3030/assets/pokemons/102.png"
+    "image": "http://localhost:3030/assets/pokemons/102.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/102.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 103,
@@ -2210,7 +2414,9 @@
       "Sp. Defense": 75,
       "Speed": 55
     },
-    "image": "http://localhost:3030/assets/pokemons/103.png"
+    "image": "http://localhost:3030/assets/pokemons/103.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/103.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 104,
@@ -2231,7 +2437,9 @@
       "Sp. Defense": 50,
       "Speed": 35
     },
-    "image": "http://localhost:3030/assets/pokemons/104.png"
+    "image": "http://localhost:3030/assets/pokemons/104.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/104.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 105,
@@ -2252,7 +2460,9 @@
       "Sp. Defense": 80,
       "Speed": 45
     },
-    "image": "http://localhost:3030/assets/pokemons/105.png"
+    "image": "http://localhost:3030/assets/pokemons/105.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/105.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 106,
@@ -2273,7 +2483,9 @@
       "Sp. Defense": 110,
       "Speed": 87
     },
-    "image": "http://localhost:3030/assets/pokemons/106.png"
+    "image": "http://localhost:3030/assets/pokemons/106.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/106.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 107,
@@ -2294,7 +2506,9 @@
       "Sp. Defense": 110,
       "Speed": 76
     },
-    "image": "http://localhost:3030/assets/pokemons/107.png"
+    "image": "http://localhost:3030/assets/pokemons/107.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/107.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 108,
@@ -2315,7 +2529,9 @@
       "Sp. Defense": 75,
       "Speed": 30
     },
-    "image": "http://localhost:3030/assets/pokemons/108.png"
+    "image": "http://localhost:3030/assets/pokemons/108.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/108.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 109,
@@ -2336,7 +2552,9 @@
       "Sp. Defense": 45,
       "Speed": 35
     },
-    "image": "http://localhost:3030/assets/pokemons/109.png"
+    "image": "http://localhost:3030/assets/pokemons/109.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/109.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 110,
@@ -2357,7 +2575,9 @@
       "Sp. Defense": 70,
       "Speed": 60
     },
-    "image": "http://localhost:3030/assets/pokemons/110.png"
+    "image": "http://localhost:3030/assets/pokemons/110.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/110.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 111,
@@ -2379,7 +2599,9 @@
       "Sp. Defense": 30,
       "Speed": 25
     },
-    "image": "http://localhost:3030/assets/pokemons/111.png"
+    "image": "http://localhost:3030/assets/pokemons/111.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/111.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 112,
@@ -2401,7 +2623,9 @@
       "Sp. Defense": 45,
       "Speed": 40
     },
-    "image": "http://localhost:3030/assets/pokemons/112.png"
+    "image": "http://localhost:3030/assets/pokemons/112.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/112.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 113,
@@ -2422,7 +2646,9 @@
       "Sp. Defense": 105,
       "Speed": 50
     },
-    "image": "http://localhost:3030/assets/pokemons/113.png"
+    "image": "http://localhost:3030/assets/pokemons/113.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/113.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 114,
@@ -2443,7 +2669,9 @@
       "Sp. Defense": 40,
       "Speed": 60
     },
-    "image": "http://localhost:3030/assets/pokemons/114.png"
+    "image": "http://localhost:3030/assets/pokemons/114.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/114.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 115,
@@ -2464,7 +2692,9 @@
       "Sp. Defense": 80,
       "Speed": 90
     },
-    "image": "http://localhost:3030/assets/pokemons/115.png"
+    "image": "http://localhost:3030/assets/pokemons/115.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/115.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 116,
@@ -2485,7 +2715,9 @@
       "Sp. Defense": 25,
       "Speed": 60
     },
-    "image": "http://localhost:3030/assets/pokemons/116.png"
+    "image": "http://localhost:3030/assets/pokemons/116.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/116.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 117,
@@ -2506,7 +2738,9 @@
       "Sp. Defense": 45,
       "Speed": 85
     },
-    "image": "http://localhost:3030/assets/pokemons/117.png"
+    "image": "http://localhost:3030/assets/pokemons/117.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/117.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 118,
@@ -2527,7 +2761,9 @@
       "Sp. Defense": 50,
       "Speed": 63
     },
-    "image": "http://localhost:3030/assets/pokemons/118.png"
+    "image": "http://localhost:3030/assets/pokemons/118.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/118.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 119,
@@ -2548,7 +2784,9 @@
       "Sp. Defense": 80,
       "Speed": 68
     },
-    "image": "http://localhost:3030/assets/pokemons/119.png"
+    "image": "http://localhost:3030/assets/pokemons/119.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/119.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 120,
@@ -2569,7 +2807,9 @@
       "Sp. Defense": 55,
       "Speed": 85
     },
-    "image": "http://localhost:3030/assets/pokemons/120.png"
+    "image": "http://localhost:3030/assets/pokemons/120.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/120.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 121,
@@ -2591,7 +2831,9 @@
       "Sp. Defense": 85,
       "Speed": 115
     },
-    "image": "http://localhost:3030/assets/pokemons/121.png"
+    "image": "http://localhost:3030/assets/pokemons/121.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/121.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 122,
@@ -2613,7 +2855,9 @@
       "Sp. Defense": 120,
       "Speed": 90
     },
-    "image": "http://localhost:3030/assets/pokemons/122.png"
+    "image": "http://localhost:3030/assets/pokemons/122.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/122.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 123,
@@ -2635,7 +2879,9 @@
       "Sp. Defense": 80,
       "Speed": 105
     },
-    "image": "http://localhost:3030/assets/pokemons/123.png"
+    "image": "http://localhost:3030/assets/pokemons/123.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/123.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 124,
@@ -2657,7 +2903,9 @@
       "Sp. Defense": 95,
       "Speed": 95
     },
-    "image": "http://localhost:3030/assets/pokemons/124.png"
+    "image": "http://localhost:3030/assets/pokemons/124.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/124.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 125,
@@ -2678,7 +2926,9 @@
       "Sp. Defense": 85,
       "Speed": 105
     },
-    "image": "http://localhost:3030/assets/pokemons/125.png"
+    "image": "http://localhost:3030/assets/pokemons/125.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/125.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 126,
@@ -2699,7 +2949,9 @@
       "Sp. Defense": 85,
       "Speed": 93
     },
-    "image": "http://localhost:3030/assets/pokemons/126.png"
+    "image": "http://localhost:3030/assets/pokemons/126.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/126.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 127,
@@ -2720,7 +2972,9 @@
       "Sp. Defense": 70,
       "Speed": 85
     },
-    "image": "http://localhost:3030/assets/pokemons/127.png"
+    "image": "http://localhost:3030/assets/pokemons/127.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/127.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 128,
@@ -2741,7 +2995,9 @@
       "Sp. Defense": 70,
       "Speed": 110
     },
-    "image": "http://localhost:3030/assets/pokemons/128.png"
+    "image": "http://localhost:3030/assets/pokemons/128.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/128.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 129,
@@ -2762,7 +3018,9 @@
       "Sp. Defense": 20,
       "Speed": 80
     },
-    "image": "http://localhost:3030/assets/pokemons/129.png"
+    "image": "http://localhost:3030/assets/pokemons/129.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/129.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 130,
@@ -2784,7 +3042,9 @@
       "Sp. Defense": 100,
       "Speed": 81
     },
-    "image": "http://localhost:3030/assets/pokemons/130.png"
+    "image": "http://localhost:3030/assets/pokemons/130.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/130.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 131,
@@ -2806,7 +3066,9 @@
       "Sp. Defense": 95,
       "Speed": 60
     },
-    "image": "http://localhost:3030/assets/pokemons/131.png"
+    "image": "http://localhost:3030/assets/pokemons/131.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/131.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 132,
@@ -2827,7 +3089,9 @@
       "Sp. Defense": 48,
       "Speed": 48
     },
-    "image": "http://localhost:3030/assets/pokemons/132.png"
+    "image": "http://localhost:3030/assets/pokemons/132.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/132.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 133,
@@ -2848,7 +3112,9 @@
       "Sp. Defense": 65,
       "Speed": 55
     },
-    "image": "http://localhost:3030/assets/pokemons/133.png"
+    "image": "http://localhost:3030/assets/pokemons/133.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/133.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 134,
@@ -2869,7 +3135,9 @@
       "Sp. Defense": 95,
       "Speed": 65
     },
-    "image": "http://localhost:3030/assets/pokemons/134.png"
+    "image": "http://localhost:3030/assets/pokemons/134.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/134.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 135,
@@ -2890,7 +3158,9 @@
       "Sp. Defense": 95,
       "Speed": 130
     },
-    "image": "http://localhost:3030/assets/pokemons/135.png"
+    "image": "http://localhost:3030/assets/pokemons/135.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/135.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 136,
@@ -2911,7 +3181,9 @@
       "Sp. Defense": 110,
       "Speed": 65
     },
-    "image": "http://localhost:3030/assets/pokemons/136.png"
+    "image": "http://localhost:3030/assets/pokemons/136.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/136.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 137,
@@ -2932,7 +3204,9 @@
       "Sp. Defense": 75,
       "Speed": 40
     },
-    "image": "http://localhost:3030/assets/pokemons/137.png"
+    "image": "http://localhost:3030/assets/pokemons/137.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/137.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 138,
@@ -2954,7 +3228,9 @@
       "Sp. Defense": 55,
       "Speed": 35
     },
-    "image": "http://localhost:3030/assets/pokemons/138.png"
+    "image": "http://localhost:3030/assets/pokemons/138.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/138.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 139,
@@ -2976,7 +3252,9 @@
       "Sp. Defense": 70,
       "Speed": 55
     },
-    "image": "http://localhost:3030/assets/pokemons/139.png"
+    "image": "http://localhost:3030/assets/pokemons/139.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/139.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 140,
@@ -2998,7 +3276,9 @@
       "Sp. Defense": 45,
       "Speed": 55
     },
-    "image": "http://localhost:3030/assets/pokemons/140.png"
+    "image": "http://localhost:3030/assets/pokemons/140.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/140.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 141,
@@ -3020,7 +3300,9 @@
       "Sp. Defense": 70,
       "Speed": 80
     },
-    "image": "http://localhost:3030/assets/pokemons/141.png"
+    "image": "http://localhost:3030/assets/pokemons/141.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/141.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 142,
@@ -3042,7 +3324,9 @@
       "Sp. Defense": 75,
       "Speed": 130
     },
-    "image": "http://localhost:3030/assets/pokemons/142.png"
+    "image": "http://localhost:3030/assets/pokemons/142.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/142.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 143,
@@ -3063,7 +3347,9 @@
       "Sp. Defense": 110,
       "Speed": 30
     },
-    "image": "http://localhost:3030/assets/pokemons/143.png"
+    "image": "http://localhost:3030/assets/pokemons/143.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/143.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 144,
@@ -3085,7 +3371,9 @@
       "Sp. Defense": 125,
       "Speed": 85
     },
-    "image": "http://localhost:3030/assets/pokemons/144.png"
+    "image": "http://localhost:3030/assets/pokemons/144.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/144.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 145,
@@ -3107,7 +3395,9 @@
       "Sp. Defense": 90,
       "Speed": 100
     },
-    "image": "http://localhost:3030/assets/pokemons/145.png"
+    "image": "http://localhost:3030/assets/pokemons/145.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/145.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 146,
@@ -3129,7 +3419,9 @@
       "Sp. Defense": 85,
       "Speed": 90
     },
-    "image": "http://localhost:3030/assets/pokemons/146.png"
+    "image": "http://localhost:3030/assets/pokemons/146.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/146.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 147,
@@ -3150,7 +3442,9 @@
       "Sp. Defense": 50,
       "Speed": 50
     },
-    "image": "http://localhost:3030/assets/pokemons/147.png"
+    "image": "http://localhost:3030/assets/pokemons/147.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/147.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 148,
@@ -3171,7 +3465,9 @@
       "Sp. Defense": 70,
       "Speed": 70
     },
-    "image": "http://localhost:3030/assets/pokemons/148.png"
+    "image": "http://localhost:3030/assets/pokemons/148.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/148.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 149,
@@ -3193,7 +3489,9 @@
       "Sp. Defense": 100,
       "Speed": 80
     },
-    "image": "http://localhost:3030/assets/pokemons/149.png"
+    "image": "http://localhost:3030/assets/pokemons/149.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/149.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 150,
@@ -3214,7 +3512,9 @@
       "Sp. Defense": 90,
       "Speed": 130
     },
-    "image": "http://localhost:3030/assets/pokemons/150.png"
+    "image": "http://localhost:3030/assets/pokemons/150.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/150.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   },
   {
     "id": 151,
@@ -3235,6 +3535,8 @@
       "Sp. Defense": 100,
       "Speed": 100
     },
-    "image": "http://localhost:3030/assets/pokemons/151.png"
+    "image": "http://localhost:3030/assets/pokemons/151.png",
+    "image_shiny": "http://localhost:3030/assets/pokemons/shiny/151.png",
+    "card": "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
   }
 ]

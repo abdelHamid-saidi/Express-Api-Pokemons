@@ -1,0 +1,21 @@
+[
+  { "id": 1, "type": "normal", "image": "http://localhost:3030/assets/types/1.png", "color": "#828282" },
+  { "id": 2, "type": "fighting", "image": "http://localhost:3030/assets/types/2.png", "color": "#e59121" },
+  { "id": 3, "type": "flying", "image": "http://localhost:3030/assets/types/3.png", "color": "#74abd1" },
+  { "id": 4, "type": "poison", "image": "http://localhost:3030/assets/types/4.png", "color": "#9454cc" },
+  { "id": 5, "type": "ground", "image": "http://localhost:3030/assets/types/5.png", "color": "#a5733c" },
+  { "id": 6, "type": "rock", "image": "http://localhost:3030/assets/types/6.png", "color": "#aaa581" },
+  { "id": 7, "type": "bug", "image": "http://localhost:3030/assets/types/7.png", "color": "#a0a027" },
+  { "id": 8, "type": "ghost", "image": "http://localhost:3030/assets/types/8.png", "color": "#6f4570" },
+  { "id": 9, "type": "steel", "image": "http://localhost:3030/assets/types/9.png", "color": "#6aadc9" },
+  { "id": 10, "type": "fire", "image": "http://localhost:3030/assets/types/10.png", "color": "#e5613e" },
+  { "id": 11, "type": "water", "image": "http://localhost:3030/assets/types/11.png", "color": "#309ae2" },
+  { "id": 12, "type": "grass", "image": "http://localhost:3030/assets/types/12.png", "color": "#439937" },
+  { "id": 13, "type": "electric", "image": "http://localhost:3030/assets/types/13.png", "color": "#e0bd28" },
+  { "id": 14, "type": "psychic", "image": "http://localhost:3030/assets/types/14.png", "color": "#ea6c8d" },
+  { "id": 15, "type": "ice", "image": "http://localhost:3030/assets/types/15.png", "color": "#47c9c9" },
+  { "id": 16, "type": "dragon", "image": "http://localhost:3030/assets/types/16.png", "color": "#576fbd" },
+  { "id": 17, "type": "dark", "image": "http://localhost:3030/assets/types/17.png", "color": "#4f4747" },
+  { "id": 18, "type": "fairy", "image": "http://localhost:3030/assets/types/18.png", "color": "#e28ee2" }
+]
+

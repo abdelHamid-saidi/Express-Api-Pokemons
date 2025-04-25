@@ -4,6 +4,7 @@ import pokemonController from '../controllers/pokemonController.js';
 
 const router = express.Router();
 
+router.get('/types/', pokemonController.getAllTypes);
 router.get('/pokemons/', pokemonController.getAllPokemons);
 router.get('/pokemons/:id', pokemonController.getPokemonById);
 // router.post('/pokemons/', upload.single("image"), pokemonController.createPokemon);

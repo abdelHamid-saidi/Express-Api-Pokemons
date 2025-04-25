@@ -1,5 +1,7 @@
 import Joi from 'joi';
 import pokemonModel from "../models/pokemonModel.js";
+import typeModel from "../models/typeModel.js";
+import { type } from 'os';
 
 
 // Schéma de validation avec Joi
@@ -29,15 +31,24 @@ const pokemonSchema = Joi.object({
 
 // Contrôleur Pokémon
 const pokemonController = {
+  getAllTypes: (req, res) => {
+    try {
+      res.status(200).json({
+        status: 200,
+        data: typeModel.getTypes(),
+      });
+    } catch (error) {
+      res.status(500).json({
+        status: 500,
+        message: "Erreur interne du serveur",
+        error: error.message,
+      });
+    }
+  },
   getAllPokemons: (req, res) => {
     try {
       res.status(200).json({
         status: 200,
-          types: [
-            "fire", "water", "grass", "electric", "ice", "fighting",
-            "poison", "ground", "flying", "psychic", "bug", "rock",
-            "ghost", "dragon", "dark", "steel", "fairy"
-          ],
         data: pokemonModel.getPokemons(),
       });
     } catch (error) {

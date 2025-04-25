@@ -8,13 +8,19 @@ const __dirname = path.dirname(__filename);
 
 const generatePokemonsJson = () => {
     try {
-        const pokemonsJson = JSON.stringify(pokemonsList, null, 2);
+        const API_URL = process.env.API_URL;
 
-        // 🔁 Chemin vers le dossier /data
+        const enhancedList = pokemonsList.map(pokemon => ({
+        ...pokemon,
+        image_shiny: `${API_URL}/assets/pokemons/shiny/${pokemon.id}.png`,
+        card: 'https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg'
+        }));
+
         const filePath = path.join(__dirname, '../data/pokemons.json');
 
-        fs.writeFileSync(filePath, pokemonsJson);
-        console.log('✅ Le fichier pokemons.json a été généré avec succès dans le dossier /data !');
+        fs.writeFileSync(filePath, JSON.stringify(enhancedList, null, 2));
+
+        console.log('✅ Fichier enrichi généré avec succès !');
     } catch (error) {
         console.error('❌ Erreur lors de la génération du fichier JSON :', error);
     }
