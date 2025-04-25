@@ -1,5 +1,5 @@
 import fs from 'fs';
-import pokemonsList from '../data/pokemonsList.js';
+import pokemonsList from './pokemonsList.js';
 import { fileURLToPath } from 'url';
 import path from 'path';
 

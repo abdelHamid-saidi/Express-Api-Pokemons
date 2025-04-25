@@ -1,182 +1,144 @@
 import Joi from 'joi';
-import pokemonModel from "../models/pokemonModel.js";
-import typeModel from "../models/typeModel.js";
-import { type } from 'os';
+import Pokemon from '../models/pokemonModel.js';
 
-
-// Schéma de validation avec Joi
 const pokemonSchema = Joi.object({
+  id: Joi.number().integer().min(1).required(),
   name: Joi.object({
     english: Joi.string().required(),
     japanese: Joi.string().required(),
     chinese: Joi.string().required(),
     french: Joi.string().required(),
   }).required(),
-  type: Joi.array().items(
-    Joi.string().valid(
-      "fire", "water", "grass", "electric", "ice", "fighting", "poison", "ground", "flying", 
-      "psychic", "bug", "rock", "ghost", "dragon", "dark", "steel", "fairy"
-    ).required()
-  ).min(1).required(),
+  type: Joi.array().items(Joi.string()).min(1).required(),
   base: Joi.object({
-    HP: Joi.number().integer().min(0).required(),
-    Attack: Joi.number().integer().min(0).required(),
-    Defense: Joi.number().integer().min(0).required(),
-    "Sp. Attack": Joi.number().integer().min(0).required(),
-    "Sp. Defense": Joi.number().integer().min(0).required(),
-    Speed: Joi.number().integer().min(0).required(),
+    HP: Joi.number().required(),
+    Attack: Joi.number().required(),
+    Defense: Joi.number().required(),
+    "Sp. Attack": Joi.number().required(),
+    "Sp. Defense": Joi.number().required(),
+    Speed: Joi.number().required()
   }).required(),
-  image: Joi.string().optional() 
+  image: Joi.string().uri().required(),
+  image_shiny: Joi.string().uri().required(),
+  card: Joi.string().uri().optional()
 });
 
-// Contrôleur Pokémon
+const pokemonVisibility = {
+  _id: 0,         
+  id: 1,
+  name: 1,
+  type: 1,
+  base: 1,
+  image: 1,
+  image_shiny: 1,
+  card: 1
+};
+
 const pokemonController = {
-  getAllTypes: (req, res) => {
+  getAllPokemons: async (req, res) => {
     try {
-      res.status(200).json({
-        status: 200,
-        data: typeModel.getTypes(),
-      });
+      const pokemons = await Pokemon.find({}, pokemonVisibility);
+      
+          const formatted = pokemons.map(p => {
+      const obj = p.toObject();
+
+      // Vérifier que base.Sp existe bien
+      const spAtk = obj.base.Sp?.[" Attack"] || obj.base["Sp. Attack"];
+      const spDef = obj.base.Sp?.[" Defense"] || obj.base["Sp. Defense"];
+
+      return {
+        ...obj,
+        base: {
+          HP: obj.base.HP,
+          Attack: obj.base.Attack,
+          Defense: obj.base.Defense,
+          "Sp. Attack": spAtk,
+          "Sp. Defense": spDef,
+          Speed: obj.base.Speed
+        }
+      };
+    });
+
+    res.status(200).json(formatted); 
     } catch (error) {
-      res.status(500).json({
-        status: 500,
-        message: "Erreur interne du serveur",
-        error: error.message,
-      });
+      console.error('Erreur lors de la récupération des pokémons :', error);
+      res.status(500).json({ message: "Erreur serveur" });
     }
   },
-  getAllPokemons: (req, res) => {
+
+  getPokemonById: async (req, res) => {
     try {
-      res.status(200).json({
-        status: 200,
-        data: pokemonModel.getPokemons(),
-      });
+      const p = await Pokemon.findById(req.params.id, pokemonVisibility);
+
+      if (!p) return res.status(404).json({ message: "Pokemon non trouvé" });
+
+      const obj = p.toObject();
+
+      const spAtk = obj.base.Sp?.[" Attack"] || obj.base["Sp. Attack"];
+      const spDef = obj.base.Sp?.[" Defense"] || obj.base["Sp. Defense"];
+
+      const formatted = {
+        ...obj,
+        base: {
+          HP: obj.base.HP,
+          Attack: obj.base.Attack,
+          Defense: obj.base.Defense,
+          "Sp. Attack": spAtk,
+          "Sp. Defense": spDef,
+          Speed: obj.base.Speed
+        }
+      };
+
+      res.status(200).json(formatted);
     } catch (error) {
-      res.status(500).json({
-        status: 500,
-        message: "Erreur interne du serveur",
-        error: error.message,
-      });
+      console.error('Erreur lors de la récupération du Pokémon :', error);
+      res.status(500).json({ message: "Erreur serveur" });
     }
   },
 
-  getPokemonById: (req, res) => {
-    const id = parseInt(req.params.id);
-    const pokemon = pokemonModel.findPokemonById(id);
-
-    if (pokemon) {
-      res.status(200).json({
-        status: 200,
-        data: pokemon,
-      });
-    } else {
-      res.status(404).json({
-        status: 404,
-        message: "Pokemon non trouvé",
-      });
-    }
-  },
-
-  createPokemon: (req, res) => {
-    const { name, type, base, image } = req.body;
-
-    const parsedName = typeof name === 'string' ? JSON.parse(name) : name;
-    const parsedBase = typeof base === 'string' ? JSON.parse(base) : base;
-
-    const { error } = pokemonSchema.validate({
-      name: parsedName,
-      type: Array.isArray(type) ? type : [type],
-      base: parsedBase,
-      image,
-    });
-
-    if (error) {
-      return res.status(400).json({
-        status: 400,
-        message: "Données invalides",
-        details: error.details,
-      });
-    }
-
-    const newPokemon = pokemonModel.addPokemon({
-      name: parsedName,
-      type,
-      base: parsedBase,
-      image,
-    });
-
-    return res.status(201).json({
-      status: 201,
-      data: newPokemon,
-    });
-  },
-
-  uploadImage: (req, res) => {
-
-    if (!req.file) {
-      return res.status(400).json({ status: 400, message: "Aucune image reçue" });
-    }
-
-    const filename = req.file.filename;
-    const imageUrl = `${process.env.API_URL || "http://localhost:3030"}/assets/pokemons/${filename}`;
-
-    return res.status(200).json({
-      status: 200,
-      filename,
-      url: imageUrl,
-    });
-  },
-
-  updatePokemonById: (req, res) => {
-    const id = parseInt(req.params.id);
-
+  createPokemon: async (req, res) => {
     const { error } = pokemonSchema.validate(req.body);
-    if (error) {
-      return res.status(400).json({
-        status: 400,
-        message: "Données invalides",
-        details: error.details,
-      });
-    }
+    if (error) return res.status(400).json({ message: "Données invalides", details: error.details });
 
-    const updatedPokemon = pokemonModel.updatePokemon(id, req.body);
-
-    if (updatedPokemon) {
-      res.status(200).json({
-        status: 200,
-        data: updatedPokemon,
-      });
-    } else {
-      res.status(404).json({
-        status: 404,
-        message: "Pokemon non trouvé",
-      });
+    try {
+      const newPokemon = new Pokemon(req.body);
+      await newPokemon.save();
+      const createdPokemon = await Pokemon.findById(newPokemon._id, pokemonVisibility);
+      res.status(201).json(createdPokemon);
+    } catch (error) {
+      console.error('Erreur lors de la création du Pokémon :', error);
+      res.status(500).json({ message: "Erreur serveur" });
     }
   },
 
-  deletePokemonById: (req, res) => {
-    const id = parseInt(req.params.id);
-    const isDeleted = pokemonModel.deletePokemon(id);
+  updatePokemonById: async (req, res) => {
+    const { error } = pokemonSchema.validate(req.body);
+    if (error) return res.status(400).json({ message: "Données invalides", details: error.details });
 
-    if (isDeleted) {
-      res.status(200).json({
-        status: 200,
-        message: "Pokémon supprimé avec succès",
-      });
-    } else {
-      res.status(404).json({
-        status: 404,
-        message: "Pokemon non trouvé",
-      });
+    try {
+      const updated = await Pokemon.findByIdAndUpdate(
+        req.params.id,
+        req.body,
+        { new: true, projection: pokemonVisibility } // <-- la projection ici aussi
+      );
+      if (updated) res.status(200).json(updated);
+      else res.status(404).json({ message: "Pokemon non trouvé" });
+    } catch (error) {
+      console.error('Erreur lors de la mise à jour du Pokémon :', error);
+      res.status(500).json({ message: "Erreur serveur" });
     }
   },
 
-  welcomeMessage: (req, res) => {
-    res.status(200).json({
-      status: 200,
-      message: "Bienvenue sur l'API Pokémon",
-    });
-  }
+  deletePokemonById: async (req, res) => {
+    try {
+      const deleted = await Pokemon.findByIdAndDelete(req.params.id);
+      if (deleted) res.status(200).json({ message: "Pokémon supprimé" });
+      else res.status(404).json({ message: "Pokemon non trouvé" });
+    } catch (error) {
+      console.error('Erreur lors de la suppression du Pokémon :', error);
+      res.status(500).json({ message: "Erreur serveur" });
+    }
+  },
 };
 
 export default pokemonController;

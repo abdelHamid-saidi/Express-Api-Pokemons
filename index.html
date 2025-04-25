@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Ajouter un Pokémon complet</title>
+  </head>
+
+  <body>
+    <h1>Ajouter un Pokémon</h1>
+
+    <form id="pokemonForm" enctype="multipart/form-data" method="POST">
+      <h2>Infos Générales</h2>
+
+      <label>Nom (Anglais) :</label><br>
+      <input type="text" name="english" value="Bulbasaur" required><br><br>
+
+      <label>Nom (Français) :</label><br>
+      <input type="text" name="french" value="Bulbizarre" required><br><br>
+
+      <label>Nom (Japonais) :</label><br>
+      <input type="text" name="japanese" value="フシギダネ" required><br><br>
+
+      <label>Nom (Chinois) :</label><br>
+      <input type="text" name="chinese" value="妙蛙种子" required><br><br>
+
+      <h2>Types</h2>
+      <label><input type="checkbox" name="type" value="grass" checked> Grass</label><br>
+      <label><input type="checkbox" name="type" value="poison" checked> Poison</label><br>
+      <label><input type="checkbox" name="type" value="fire"> Fire</label><br>
+      <label><input type="checkbox" name="type" value="water"> Water</label><br><br>
+
+      <h2>Base Stats</h2>
+
+      <label>HP :</label><br>
+      <input type="number" name="HP" value="45" required><br><br>
+
+      <label>Attack :</label><br>
+      <input type="number" name="Attack" value="49" required><br><br>
+
+      <label>Defense :</label><br>
+      <input type="number" name="Defense" value="49" required><br><br>
+
+      <label>Sp. Attack :</label><br>
+      <input type="number" name="SpAttack" value="65" required><br><br>
+
+      <label>Sp. Defense :</label><br>
+      <input type="number" name="SpDefense" value="65" required><br><br>
+
+      <label>Speed :</label><br>
+      <input type="number" name="Speed" value="45" required><br><br>
+
+      <h2>Images (.png uniquement)</h2>
+
+      <label>Image Normale :</label><br>
+      <input type="file" name="image" accept="image/png" required><br><br>
+
+      <label>Image Shiny :</label><br>
+      <input type="file" name="shiny" accept="image/png" required><br><br>
+
+      <label>Image Carte :</label><br>
+      <input type="file" name="card" accept="image/png" required><br><br>
+
+      <button type="submit">Ajouter Pokémon</button>
+    </form>
+
+    <div id="result" style="margin-top: 30px;"></div>
+
+    <script>
+      const form = document.getElementById('pokemonForm');
+      const result = document.getElementById('result');
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const formData = new FormData(form);
+
+        // Séparer images et données texte
+        const imageFormData = new FormData();
+        imageFormData.append('image', formData.get('image'));
+        imageFormData.append('shiny', formData.get('shiny'));
+        imageFormData.append('card', formData.get('card'));
+
+        try {
+          // 1. Uploader les images
+          const uploadRes = await fetch('http://localhost:3030/api/upload/pokemon-all', {
+            method: 'POST',
+            body: imageFormData
+          });
+          const uploadData = await uploadRes.json();
+          if (!uploadRes.ok) {
+            throw new Error(uploadData.message || "Erreur d'upload des images");
+          }
+
+          const imageUrls = uploadData.images;
+
+          // 2. Envoyer les données du Pokémon
+          const types = [];
+          formData.getAll('type').forEach(t => types.push(t));
+
+          const pokemonData = {
+            name: {
+              english: formData.get('english'),
+              french: formData.get('french'),
+              japanese: formData.get('japanese'),
+              chinese: formData.get('chinese')
+            },
+            type: types,
+            base: {
+              HP: parseInt(formData.get('HP')),
+              Attack: parseInt(formData.get('Attack')),
+              Defense: parseInt(formData.get('Defense')),
+              "Sp. Attack": parseInt(formData.get('SpAttack')),
+              "Sp. Defense": parseInt(formData.get('SpDefense')),
+              Speed: parseInt(formData.get('Speed'))
+            },
+            image: imageUrls.normal,
+            image_shiny: imageUrls.shiny,
+            card: imageUrls.card
+          };
+
+          const pokemonRes = await fetch('http://localhost:3030/api/pokemons', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(pokemonData)
+          });
+
+          const pokemonResult = await pokemonRes.json();
+
+          if (pokemonRes.ok) {
+            result.innerHTML = `✅ Pokémon ajouté avec succès : ${pokemonResult.data.name.english}`;
+          } else {
+            result.innerHTML = `❌ Erreur à l'ajout : ${pokemonResult.message}`;
+          }
+
+        } catch (err) {
+          result.innerHTML = `❌ Erreur : ${err.message}`;
+        }
+      });
+    </script>
+  </body>
+
+</html>
