@@ -9,7 +9,7 @@ export const getAllTypes = async (req, res) => {
       image: 1,
       color: 1
     });
-    res.status(200).json({ types });
+    res.status(200).json(types);
   } catch (err) {
     res.status(500).json({ message: "Erreur lors de la récupération des types", error: err.message });
   }

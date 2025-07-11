@@ -103,8 +103,8 @@ const pokemonController = {
     try {
       const newPokemon = new Pokemon(req.body);
       await newPokemon.save();
-      const createdPokemon = await Pokemon.findById(newPokemon._id, pokemonVisibility);
-      res.status(201).json(createdPokemon);
+      // const createdPokemon = await Pokemon.findById(newPokemon._id, pokemonVisibility);
+      res.status(201).json({ message: "Pokémon créé", pokemon: newPokemon });
     } catch (error) {
       console.error('Erreur lors de la création du Pokémon :', error);
       res.status(500).json({ message: "Erreur serveur" });

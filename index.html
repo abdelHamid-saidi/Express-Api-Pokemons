@@ -53,13 +53,13 @@
       <h2>Images (.png uniquement)</h2>
 
       <label>Image Normale :</label><br>
-      <input type="file" name="image" accept="image/png" required><br><br>
+      <input type="file" name="image" accept="image/png"><br><br>
 
       <label>Image Shiny :</label><br>
-      <input type="file" name="shiny" accept="image/png" required><br><br>
+      <input type="file" name="shiny" accept="image/png"><br><br>
 
       <label>Image Carte :</label><br>
-      <input type="file" name="card" accept="image/png" required><br><br>
+      <input type="file" name="card" accept="image/png"><br><br>
 
       <button type="submit">Ajouter Pokémon</button>
     </form>
@@ -82,22 +82,25 @@
 
         try {
           // 1. Uploader les images
-          const uploadRes = await fetch('http://localhost:3030/api/upload/pokemon-all', {
-            method: 'POST',
-            body: imageFormData
-          });
-          const uploadData = await uploadRes.json();
-          if (!uploadRes.ok) {
-            throw new Error(uploadData.message || "Erreur d'upload des images");
-          }
+          // const uploadRes = await fetch('http://localhost:3030/api/upload/pokemon-all', {
+          //   method: 'POST',
+          //   body: imageFormData
+          // });
+          // const uploadData = await uploadRes.json();
+          // if (!uploadRes.ok) {
+          //   throw new Error(uploadData.message || "Erreur d'upload des images");
+          // }
 
-          const imageUrls = uploadData.images;
+          // result.innerHTML = `✅ Image ajouté avec succès : ${uploadData.message}`;
+
+          // const imageUrls = uploadData.images;
 
           // 2. Envoyer les données du Pokémon
           const types = [];
           formData.getAll('type').forEach(t => types.push(t));
 
           const pokemonData = {
+            id: 154,
             name: {
               english: formData.get('english'),
               french: formData.get('french'),
@@ -113,9 +116,9 @@
               "Sp. Defense": parseInt(formData.get('SpDefense')),
               Speed: parseInt(formData.get('Speed'))
             },
-            image: imageUrls.normal,
-            image_shiny: imageUrls.shiny,
-            card: imageUrls.card
+            image: "http://localhost:3030/assets/pokemons/151.png",
+            image_shiny: "http://localhost:3030/assets/pokemons/shiny/151.png",
+            card: "https://tcg.pokemon.com/assets/img/global/tcg-card-back-2x.jpg"
           };
 
           const pokemonRes = await fetch('http://localhost:3030/api/pokemons', {
